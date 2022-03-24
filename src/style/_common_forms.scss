@@ -1,0 +1,143 @@
+.soma-filed {
+    height: 58px;
+    padding: 16px;
+    border: none !important;
+    border-radius: 16px;
+    background-color: #f2f3f7;
+    font-weight: 300;
+    display: block;
+    width: 100%;
+}
+
+.soma-filed:focus {
+    height: 58px;
+    padding: 16px;
+    border: 1px solid #dddddd !important;
+    border-radius: 16px;
+    display: block;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #f2f3f7;
+}
+
+.semi-filed {
+    height: 58px;
+    padding: 16px;
+    border: none !important;
+    background-color: #f2f3f7;
+    font-weight: 300;
+    border-radius: 16px;
+    display: block;
+    width: 100%;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom: none !important;
+}
+
+.semi-filed:focus {
+    height: 58px;
+    padding: 16px;
+    border: 1px solid #dddddd !important;
+    background-color: #f2f3f7;
+    font-weight: 300;
+    border-radius: 16px;
+    display: block;
+    width: 100%;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom: none !important;
+}
+
+.form-group {
+    max-height: 58px;
+    overflow-y: hidden !important;
+    width: 100%;
+    position: relative;
+}
+
+.filed-icon-sect {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.form-group > label {
+    bottom: 44px;
+    left: 12px;
+    position: relative;
+    padding: 0px 5px 0px 5px;
+    font-size: 1.1em;
+    transition: 0.2s;
+    pointer-events: none;
+    color: #a1a4b2;
+}
+
+.form-group > .filed-icon {
+    bottom: 44px;
+    right: 12px;
+    position: relative;
+    padding: 0px 5px 0px 5px;
+    font-size: 1.1em;
+    transition: 0.2s;
+    pointer-events: none;
+}
+
+.soma-filed:focus ~ label {
+    bottom: 50px;
+    font-size: 10px;
+    color: #777777;
+}
+
+.soma-filed:valid ~ label {
+    bottom: 50px;
+    font-size: 10px;
+    color: #777777;
+}
+
+.soma-filed:valid {
+    padding-top: 32px;
+}
+
+.soma-filed:invalid {
+    border: orangered solid 2px;
+}
+
+.verify-field {
+    padding-top: 16px !important;
+}
+
+.rotateimg180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.options-sect {
+    position: absolute;
+    border: 1px solid #dddddd !important;
+    background-color: #f2f3f7;
+    font-weight: 300;
+    border-radius: 16px;
+    width: 91.5%;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-top: none !important;
+    max-height: 150px;
+    z-index: 99;
+    overflow-y: auto !important;
+}
+
+.option-row {
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.passowd-field {
+    -webkit-text-security: disc;
+    -moz-text-security: circle;
+}

@@ -1,0 +1,39 @@
+.subject-card {
+    height: 88px;
+    width: 100%;
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.h-88px {
+    height: 88px;
+}
+
+.blue-linear {
+    background: linear-gradient(to right, #5BB5D0 0%,  #A7DAE7 55.21%);
+}
+.dark-blue {
+    background-color: #3E6586;
+}
+
+.purple-linear {
+    background: linear-gradient(to right, #6D4976 0%,  #C8B0CE 55.21%);
+}
+.dark-purple {
+    background-color: #2f0647;
+}
+
+.orange-linear {
+    background: linear-gradient(to right, #F57857 0%,  #EDBAAC 55.21%);
+}
+.dark-orange {
+    background-color: #472906;
+}
+
+.yellow-linear {
+    background: linear-gradient(to right, #F9D649 0%,  #FDEDA3 55.21%);
+}
+.dark-yellow {
+    background-color: #434d16;
+}

@@ -1,0 +1,61 @@
+.full-height {
+    height: 100vh;
+}
+.min-full-height {
+    min-height: 100vh;
+}
+
+.no-scroll-y {
+    overflow-y: hidden !important;
+}
+.no-scroll-x {
+    overflow-x: hidden;
+}
+
+.cover-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white-bg {
+    background-color: white;
+}
+.gray-bg {
+    background-color: #F5F5F8 !important; 
+}
+
+.overflow-y-auto {
+    overflow-y: auto !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.pointer-section {
+    cursor: pointer;
+}
+
+.limit-x-scroll {
+    overflow-x: auto !important;
+    white-space: nowrap;
+}
+
+.scrollable-col {
+    display: inline-flex;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.divisor-line {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+}

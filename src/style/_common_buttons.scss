@@ -1,0 +1,46 @@
+.btn {
+    padding: 16px 8px !important;
+    height: 58px !important;
+    border-radius: 38px !important;
+    align-items: center !important;
+    text-transform: uppercase !important;
+    width: 100% !important;
+    font-weight: bold !important;
+}
+
+.btn-default-white-orange {
+    padding: 8px;
+    height: 28px;
+    border-radius: 38px;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: bold;
+    line-height: 8px;
+    font-size: 10px;
+    color: rgba(232, 78, 39, 0.4);
+    border: 1px solid rgba(232, 78, 39, 0.4);
+    background-color: #FFFFFF;
+}
+
+.btn:disabled {
+    background-color: #DDDDDD !important;
+    color: #F0F0F0;
+}
+
+.btn-default-yellow {
+    background-color: #F9D649 !important;
+    color: #6D4976 !important;
+}
+
+.btn-default-white {
+    background-color: #FFFFFF !important;
+    color: #6D4976 !important;
+    border: 1px solid #AC89B6 !important;
+}
+
+.cost-sect {
+    background: rgba(237, 186, 172, 0.25) !important;
+    border-radius: 17px !important;
+    padding: 2px !important;
+    text-align: center !important;
+}
